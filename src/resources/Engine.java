@@ -1,5 +1,7 @@
 package resources;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class Engine extends DataStructure {
@@ -37,7 +39,17 @@ public class Engine extends DataStructure {
 	
 	@Override
 	public String queque() {
-		
+		System.out.println("QueQue Implementation");
+		Queue<String> liStrings = new LinkedList<>();
+		liStrings.add("ric");
+		liStrings.add("ivan");
+		liStrings.add("henry");
+		liStrings.add("joyce");
+		System.out.println(liStrings.size());
+		System.out.println(liStrings.getClass());
+		for (int y = 0; y <= liStrings.size() - 1; y++) {
+			System.out.println(liStrings.contains("hr"));
+		}
 		return null;
 	}
 	
