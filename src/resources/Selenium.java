@@ -4,8 +4,8 @@ package resources;
 public class Selenium {
 	
 	public static void main(String[] args) {
-		//new Engine().myapi();
-		new Engine().queque();
+		new Engine().myapi();
+		//new Engine().queque();
 	}
 	
 }

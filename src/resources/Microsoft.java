@@ -44,10 +44,17 @@ public class Microsoft {
 		//		}
 		System.out.println("||||||||||||||||||||||>>>>>>>>>>>>??????\\\\||||");
 		
-		for (int i = 0; i <= myResult.size() - 1; i++) {
-			System.out.println(i);
+		//		for (int i = 0; i <= myResult.size() - 1; i++) {
+		//			System.out.println(i);
+		//		}
+		for (String key : myResult.keySet()) {
+			System.out.println(key + " --------->" + myResult.get(key));
 		}
+		System.out.println("*******************************");
+		System.out.println("This is magic");
+		myResult.forEach((K, V) -> System.out.println(K + " " + V));
 		
+
 		return "";
 	}
 	
