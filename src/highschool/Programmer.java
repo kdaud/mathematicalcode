@@ -38,5 +38,8 @@ public final class Programmer {
 		    "Programmers of tommorow will be the wizzards of the future. People will have to think you have magic powers "
 		            + "commpared to any one else");
 	}
+	static {
+		System.out.println("God is ever good to me!");
+	}
 	
 }
