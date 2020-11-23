@@ -24,8 +24,23 @@ public final class Programmer {
 		System.out.println("||||||||||||||||||||||||");
 		
 		patientconcept.forEach((Q, S) -> System.out.println(Q + " ^^^^^^ " + S));
+		
+		String searchKey="Cough";
+		if (patientconcept.containsKey(searchKey)) {
+			System.out.println("Found out: " + patientconcept.get(searchKey) + " ------> " + searchKey);
+		}
 		return todo;
 		
+	}
+	
+	static {
+		System.out.println(
+		    "Programmers of tommorow will be the wizzards of the future. People will have to think you have magic powers "
+		            + "commpared to any one else");
+	}
+	static {
+		//I am an opensource committer who has worked with OpenMRS for 3 years now as a volunteer
+		System.out.println("God is ever good to me!");
 	}
 	
 }
