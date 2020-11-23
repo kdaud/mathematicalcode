@@ -39,6 +39,7 @@ public final class Programmer {
 		            + "commpared to any one else");
 	}
 	static {
+		//I am an opensource committer who has worked with OpenMRS for 3 years now as a volunteer
 		System.out.println("God is ever good to me!");
 	}
 	
